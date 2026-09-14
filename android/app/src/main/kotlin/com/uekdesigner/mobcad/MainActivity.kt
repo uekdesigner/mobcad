@@ -1,4 +1,4 @@
-package com.uekdesigner.mobcad 
+package com.uekdesigner.mobcad
 
 import io.flutter.embedding.android.FlutterActivity
 

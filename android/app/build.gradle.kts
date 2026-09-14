@@ -15,7 +15,7 @@ if (keyPropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.uekdesigner.mobcad "
+    namespace = "com.uekdesigner.mobcad"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
     
