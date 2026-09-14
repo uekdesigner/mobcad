@@ -1,0 +1,69 @@
+name: mobcad                   
+description: "Mutfak dolabı çizim Progamı"
+publish_to: 'none'
+
+version: 1.0.0+15
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_svg:
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.1.10
+  material_symbols_icons: ^4.2745.1
+  mask_text_input_formatter: ^2.5.0
+  country_code_picker: ^3.4.1
+  shared_preferences: ^2.5.3  
+  geolocator: ^14.0.2
+  geocoding: ^5.0.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  url_launcher: ^6.1.11
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.2.3
+  path_provider: ^2.1.2
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  share_plus: ^12.0.2
+  file_picker: ^11.0.2
+  image_picker: ^1.0.7
+  firebase_core: ^4.10.0
+  firebase_auth: ^6.5.2
+  cloud_firestore: ^6.5.0
+  google_sign_in: ^7.2.0
+  cloud_functions: ^6.3.2
+  excel: ^4.0.6
+  qr_flutter: ^4.1.0
+  google_sign_in_web: ^1.1.3
+  package_info_plus: ^9.0.1
+  in_app_purchase: ^3.2.0
+  in_app_purchase_android: ^0.5.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/logo.png
+    - assets/4K.png
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#1565C0"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
