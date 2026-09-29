@@ -36,7 +36,7 @@ android {
 }
 
     defaultConfig {
-        applicationId = "com.uekdesigner.mobcad "
+        applicationId = "com.uekdesigner.mobcad"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
