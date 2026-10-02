@@ -41,22 +41,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA73w5mZkDU2goAf7pbdqzZtO5S4JXEZfM',
-    appId: '1:744072834944:android:ac0ae4631e82dbd3b19b65',
-    messagingSenderId: '744072834944',
-    projectId: 'windesign-craft-pro',
-    storageBucket: 'windesign-craft-pro.firebasestorage.app',
+    apiKey: 'AIzaSyDyk814evLU0oZj7OXpbHThPjB816pLe4A',
+    appId: '1:518076093594:android:1582b995d316b9f7313b23',
+    messagingSenderId: '518076093594',
+    projectId: 'mobcad-pro',
+    storageBucket: 'mobcad-pro.firebasestorage.app',
   );
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC2aQpL-Y9YUP3UOS3bQgdrvaSTnK9OLcQ',
-    appId: '1:744072834944:web:5398fc1da8d6912bb19b65',
-    messagingSenderId: '744072834944',
-    projectId: 'windesign-craft-pro',
-    authDomain: 'windesign-craft-pro.firebaseapp.com',
-    storageBucket: 'windesign-craft-pro.firebasestorage.app',
-    measurementId: 'G-Z80B7D2MQL',
+    apiKey: 'AIzaSyAaC2oG8FB06XOaIzeb6e1glcuVPxMP4KA',
+    appId: '1:518076093594:web:4c76e8c039a9be0a313b23',
+    messagingSenderId: '518076093594',
+    projectId: 'mobcad-pro',
+    authDomain: 'mobcad-pro.firebaseapp.com',
+    storageBucket: 'mobcad-pro.firebasestorage.app',
+    measurementId: 'G-SE79EME1NV',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBW6FwXTwqAO1KgF84yVooZgC-dbyy6bAg',
     appId: '1:744072834944:ios:1734f269062a63b3b19b65',
@@ -69,16 +68,13 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBW6FwXTwqAO1KgF84yVooZgC-dbyy6bAg',
-    appId: '1:744072834944:ios:1734f269062a63b3b19b65',
-    messagingSenderId: '744072834944',
-    projectId: 'windesign-craft-pro',
-    storageBucket: 'windesign-craft-pro.firebasestorage.app',
-    androidClientId: '744072834944-0q5sa154vupsr1f02cg3qnoo6baqnb86.apps.googleusercontent.com',
-    iosClientId: '744072834944-9u37jmtas53h605vh5rdgvn0c3ltn7c0.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDtSNgPmW_eVqzdxB38sDWDdXWB2abQpew',
+    appId: '1:518076093594:ios:299605404ca96575313b23',
+    messagingSenderId: '518076093594',
+    projectId: 'mobcad-pro',
+    storageBucket: 'mobcad-pro.firebasestorage.app',
     iosBundleId: 'com.example.opnwndw',
   );
-
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyC2aQpL-Y9YUP3UOS3bQgdrvaSTnK9OLcQ',
     appId: '1:744072834944:web:020d858ac891ca9db19b65',
